@@ -1,0 +1,11 @@
+to run python file from cmd prompt sudo python 'file name'
+
+control c kills programs
+
+cd to go to differet directory
+
+gksudo idle3 lauches python as administrator
+
+git status tells whats going on
+
+git commit -a put in repository
