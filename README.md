@@ -1,2 +1,2 @@
 # Raspberry-Pie
-#This is Christian's Repository of Raspberry pi files
+This is Christian's Repository of Raspberry pi files
