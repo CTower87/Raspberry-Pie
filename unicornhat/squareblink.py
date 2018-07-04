@@ -11,42 +11,46 @@ y = 0
 try:
     while 1:
 
-        for x in range (-1, 8):
+        for x in range (0, 8):
 
-            uc.set_pixel(x,y,128,0,0)
-            uc.set_pixel(x-1,y,0,0,0)
+            uc.set_pixel(x,0,128,0,0)
+            uc.set_pixel(x-1,0,0,0,0)
             uc.show()
             time.sleep(.3)
+            
 
         uc.set_pixel(7,0,0,0,0)
         uc.show
 
-        for y in range (0, 8)
+        for y in range (1, 8):
 
-            uc.set_pixel(7,y,128,0,0,0)
+            uc.set_pixel(7,y,128,0,0)
             uc.set_pixel(7,y-1,0,0,0)
             uc.show()
             time.sleep(.3)
+            
 
         uc.set_pixel(7,7,0,0,0)
         uc.show()
 
-        for x in range (7, -1, -1)
+        for x in range (6, 0, -1):
 
             uc.set_pixel(x,7,128,0,0)
             uc.set_pixel(x+1,7,0,0,0)
             uc.show()
             time.sleep(.3)
+            print(x)
 
-        uc.set_pixel(0,7,0,0,0)
+        uc.set_pixel(1,7,0,0,0)
         uc.show()
 
-        for y in range (7, 0, -1)
+        for y in range (7, 0, -1):
 
             uc.set_pixel(0,y,128,0,0)
             uc.set_pixel(0,y+1,0,0,0)
             uc.show()
             time.sleep(.3)
+            print(y)
 
         uc.set_pixel(0,1,0,0,0)
 
