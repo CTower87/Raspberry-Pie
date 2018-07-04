@@ -9,3 +9,7 @@ gksudo idle3 lauches python as administrator
 git status tells whats going on
 
 git commit -a put in repository
+
+git log history of all changes
+
+git push all of changes push onto git hub repos
